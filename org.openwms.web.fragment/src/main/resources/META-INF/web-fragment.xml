@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-fragment id="WebFragment_ID" version="3.0" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-fragment_3_0.xsd">
+    <display-name>servlet-3.0-fragment</display-name>
+    <name>servlet_3_0_fragment</name>
+
+    <servlet>
+        <servlet-name>fragmentServlet</servlet-name>
+        <servlet-class>org.openwms.web.fragment.servlet.FragmentServlet</servlet-class>
+        <load-on-startup>1</load-on-startup>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>fragmentServlet</servlet-name>
+        <url-pattern>/fragmentServlet</url-pattern>
+    </servlet-mapping>
+</web-fragment>
+ 
